@@ -1,6 +1,6 @@
 # Stoichiometry Solver
 
-A Python tool for solving mass-to-mass stoichiometry problems with automatic equation balancing and step-by-step solutions.
+A Python tool build with [Claude.ai](https://claude.ai/) for solving mass-to-mass stoichiometry problems with automatic equation balancing and step-by-step solutions.
 
 ## Features
 
