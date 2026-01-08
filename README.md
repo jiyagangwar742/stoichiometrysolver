@@ -1,6 +1,6 @@
 # Stoichiometry Solver
 
-A powerful Python tool for solving mass-to-mass stoichiometry problems with automatic equation balancing and step-by-step solutions.
+A Python tool for solving mass-to-mass stoichiometry problems with automatic equation balancing and step-by-step solutions.
 
 ## Features
 
@@ -263,23 +263,3 @@ The solver includes comprehensive error handling for common issues:
 - **Unbalanceable equations**: Reports balancing failures
 - **Missing compounds**: Validates that given/target compounds exist in equation
 
-
-## Examples Directory
-
-Try these additional problems:
-
-```python
-calc = StoichiometryCalculator()
-
-# Ammonia synthesis
-calc.solve_problem("N2 + H2 -> NH3", "N2", 100, "NH3")
-
-# Rusting of iron
-calc.solve_problem("Fe + O2 -> Fe2O3", "Fe", 50, "Fe2O3")
-
-# Photosynthesis
-calc.solve_problem("CO2 + H2O -> C6H12O6 + O2", "CO2", 88, "C6H12O6")
-
-# Neutralization
-calc.solve_problem("HCl + NaOH -> NaCl + H2O", "HCl", 36.5, "NaCl")
-```
