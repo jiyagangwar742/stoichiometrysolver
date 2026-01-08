@@ -4,13 +4,13 @@ A powerful Python tool for solving mass-to-mass stoichiometry problems with auto
 
 ## Features
 
-- ✅ **Automatic Equation Balancing** - Balances chemical equations using matrix algebra
-- ✅ **Mass-to-Mass Conversions** - Complete stoichiometric calculations
-- ✅ **Complex Formula Support** - Handles parentheses and subscripts (e.g., Ca(OH)₂)
-- ✅ **Step-by-Step Solutions** - Shows all work including molar masses, mole ratios, and conversions
-- ✅ **Complete Periodic Table** - Includes atomic masses for all elements
-- ✅ **Modular Architecture** - Clean, maintainable code structure
-- ✅ **Interactive & Scriptable** - Use interactively or import as a module
+-  **Automatic Equation Balancing** - Balances chemical equations using matrix algebra
+-  **Mass-to-Mass Conversions** - Complete stoichiometric calculations
+-  **Complex Formula Support** - Handles parentheses and subscripts (e.g., Ca(OH)₂)
+-  **Step-by-Step Solutions** - Shows all work including molar masses, mole ratios, and conversions
+-  **Complete Periodic Table** - Includes atomic masses for all elements
+-  **Modular Architecture** - Clean, maintainable code structure
+-  **Interactive & Scriptable** - Use interactively or import as a module
 
 ## Installation
 
@@ -329,4 +329,3 @@ calc.solve_problem("CO2 + H2O -> C6H12O6 + O2", "CO2", 88, "C6H12O6")
 # Neutralization
 calc.solve_problem("HCl + NaOH -> NaCl + H2O", "HCl", 36.5, "NaCl")
 ```
-**Happy calculating!** 🧪⚗️🔬
